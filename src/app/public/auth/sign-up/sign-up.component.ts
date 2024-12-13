@@ -43,7 +43,7 @@ export class SignUpComponent {
       console.log(this.req);
 
       if(this.req == 'queries_executed'){
-        this._localstorage.setItem('user', this.req);
+        // this._localstorage.setItem('user', this.req);
         this._router.navigate(['/auth/sign-in']);
       }else{
         this._snackBar.open('Error al registrar', 'cerrar', {duration:5000});
