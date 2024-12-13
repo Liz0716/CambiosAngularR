@@ -1,0 +1,46 @@
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 384px;
+    justify-content: center;
+}
+img {
+    width: 100%;
+    max-width: 256px;
+}
+/* .button-secundary{
+    margin-top: 16px;
+    width: 100%;
+    max-width: 384px;
+    text-align: center;
+    padding: 8px 12px;
+} */
+/* .registro{
+  margin-top: 20px;
+  text-align: center;
+  padding: 0 8px;
+  background-color: rgb(34, 158, 121);
+
+
+} */
+
+}
+.to-emerald-400 {
+  --tw-gradient-to: #34d399 var(--tw-gradient-to-position);
+}
+.from-emerald-200 {
+  --tw-gradient-from: #a7f3d0 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(167 243 208 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.\!bg-gradient-to-r {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops)) !important;
+}
